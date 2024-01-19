@@ -18,7 +18,7 @@ export default function Home() {
         </button>
       </div>
       {showModal && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-pink-400 rounded-lg border z-50">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full rounded-lg border z-50">
           <div className="relative w-full h-full">
             <Image
               src="/assets/background2.png"
